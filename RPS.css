@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    background-color: #C2DEDC;
+  }
+  
+  h1 {
+    color: #000000;
+  }
+  
+  .icons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .icon-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+  }
+  
+  .icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECE5C7;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 200px;
+  }
+  
+  .icon:hover {
+    background-color: lightblue;
+  }
+  
+  .icon i {
+    font-size: 40px;
+  }
+  
+  .result-boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .player-choice-box,
+  .computer-choice-box {
+    width: 200px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #116A7B;
+    margin-top: -30px;
+  }
+  
+  .player-choice-box i,
+  .computer-choice-box i {
+    font-size: 40px; /* Increase the font size for the icon */
+  }
+
+  .scoreboard-box {
+    margin: 50px auto;
+    width: 350px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #116A7B;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .score {
+    margin: 0 10px;
+  }
+  
+  .player-score {
+    width: 150px;
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #ECE5C7;
+  }
+  
+  .computer-score {
+    width: 150px;
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #ECE5C7;
+  }
+
+  #round-result{
+    margin-top: 20px;
+  }
+
+
+
